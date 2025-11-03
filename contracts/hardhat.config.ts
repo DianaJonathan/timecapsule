@@ -13,6 +13,7 @@ import "solidity-coverage";
 
 // Support environment variables for deployment
 // Priority: process.env > hardhat vars > default
+// Configuration for FHEVM-enabled TimeCapsule contract deployment
 const MNEMONIC: string = process.env.MNEMONIC || vars.get("MNEMONIC", "test test test test test test test test test test test junk");
 const INFURA_API_KEY: string = vars.get("INFURA_API_KEY", "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz");
 const SEPOLIA_RPC_URL: string = process.env.SEPOLIA_RPC_URL || `https://sepolia.infura.io/v3/${INFURA_API_KEY}`;
