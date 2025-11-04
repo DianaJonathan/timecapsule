@@ -22,6 +22,7 @@ contract TimeCapsule is ZamaEthereumConfig {
     mapping(uint256 => Capsule) public capsules;
     
     /// @notice Counter for capsule IDs
+    /// @dev Increments for each new capsule creation
     uint256 public capsuleCounter;
     
     /// @notice Mapping from user address to their capsule IDs
