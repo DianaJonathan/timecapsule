@@ -5,6 +5,7 @@ import { Providers } from "./providers";
 export const metadata: Metadata = {
   title: "TimeCapsule - Encrypted Time-Locked Messages",
   description: "Create encrypted time capsules that unlock at a future date using Zama FHEVM technology",
+  keywords: ["FHEVM", "encryption", "time capsule", "blockchain", "Zama"],
 };
 
 export default function RootLayout({
